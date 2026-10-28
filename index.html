@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffe8f2">
+    <title>For My Favourite Person, PB 💖</title>
+    <meta name="description" content="A birthday surprise made with love, just for PB.">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="birthday-world" id="birthdayWorld">
+
+        <div class="dreamy-background" aria-hidden="true">
+            <div class="glow glow-one"></div>
+            <div class="glow glow-two"></div>
+            <div class="glow glow-three"></div>
+        </div>
+
+        <div class="floating-particles" id="floatingParticles" aria-hidden="true"></div>
+
+        <!-- Opening screen -->
+        <section class="intro-screen active" id="introScreen">
+            <div class="intro-content">
+                <p class="little-label">A LITTLE UNIVERSE MADE FOR YOU</p>
+
+                <h1 id="introTitle">
+                    Hey, My Favourite Person <span>♡</span>
+                </h1>
+
+                <p class="intro-description">
+                    I have something special for you...
+                    <br>
+                    Ready to open your little world of love?
+                </p>
+
+                <button
+                    class="heart-launcher"
+                    id="heartLauncher"
+                    type="button"
+                    aria-label="Open your birthday surprise"
+                >
+                    <span class="heart-orbit orbit-one"></span>
+                    <span class="heart-orbit orbit-two"></span>
+                    <span class="heart-orbit orbit-three"></span>
+                    <span class="heart-aura"></span>
+
+                    <span class="heart-3d">
+                        <span class="heart-shine"></span>
+                        <span class="heart-symbol">♥</span>
+                    </span>
+
+                    <span class="heart-spark spark-one">✦</span>
+                    <span class="heart-spark spark-two">✧</span>
+                    <span class="heart-spark spark-three">✦</span>
+                </button>
+
+                <p class="heart-instruction">
+                    Tap the glowing heart to begin ♡
+                </p>
+
+                <div class="intro-footer">
+                    <span>MADE WITH LOVE</span>
+                    <span>✧</span>
+                    <span>ONLY FOR PB</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memory gallery: bp1.jpeg to bp15.jpeg -->
+        <section
+            class="memories-screen"
+            id="memoriesScreen"
+            aria-hidden="true"
+        >
+            <header class="memories-heading">
+                <p class="little-label">EVERY LITTLE MOMENT MATTERS</p>
+
+                <h2>My Favourite Memories <span>♡</span></h2>
+
+                <p class="memories-subtitle">
+                    If I could keep one thing forever,
+                    <br>
+                    it would be these moments with you.
+                </p>
+            </header>
+
+            <div class="memory-gallery" id="memoryGallery"></div>
+
+            <p class="memory-caption" id="memoryCaption">
+                Every picture holds a little piece of my heart. 💗
+            </p>
+        </section>
+
+        <!-- Cinematic vortex -->
+        <div class="love-vortex" id="loveVortex" aria-hidden="true">
+            <div class="vortex-glow"></div>
+            <div class="vortex-ring vortex-ring-one"></div>
+            <div class="vortex-ring vortex-ring-two"></div>
+            <div class="vortex-ring vortex-ring-three"></div>
+
+            <div class="vortex-core"><span>♥</span></div>
+
+            <p class="vortex-message">
+                All my little worlds lead back to you.
+            </p>
+        </div>
+
+        <!-- Final birthday reveal -->
+        <section
+            class="final-screen"
+            id="finalScreen"
+            aria-hidden="true"
+        >
+            <div class="final-content">
+                <p class="final-eyebrow">TODAY IS ALL ABOUT YOU</p>
+
+                <div class="main-photo-wrap">
+                    <div class="photo-halo"></div>
+                    <div class="photo-glitter"></div>
+
+                    <div class="main-photo-frame">
+                        <img
+                            id="mainPhoto"
+                            src="./mainpic1.jpeg"
+                            alt="My favourite person, PB"
+                        >
+                    </div>
+
+                    <span class="photo-heart photo-heart-one">♥</span>
+                    <span class="photo-heart photo-heart-two">♡</span>
+                    <span class="photo-heart photo-heart-three">✧</span>
+                </div>
+
+                <p class="final-small-text">
+                    To the girl who makes my world brighter...
+                </p>
+
+                <h2 class="birthday-title" id="birthdayTitle">
+                    Happy Birthday,
+                    <span>PB 💖</span>
+                </h2>
+
+                <div class="birthday-divider">
+                    <span></span>
+                    <span class="divider-heart">♥</span>
+                    <span></span>
+                </div>
+
+                <p class="birthday-message">
+                    In a world full of people,
+                    <br>
+                    my heart will always choose you.
+                </p>
+
+                <p class="forever-note">
+                    You are my favourite kind of forever. ♡
+                </p>
+
+                <button
+                    class="replay-button"
+                    id="replayButton"
+                    type="button"
+                >
+                    <span>♡</span>
+                    Relive Our Little Universe
+                    <span>↻</span>
+                </button>
+
+                <p class="final-signature">
+                    MADE WITH ALL MY LOVE · JUST FOR PB
+                </p>
+            </div>
+        </section>
+
+        <div class="transition-flash" id="transitionFlash" aria-hidden="true"></div>
+        <div class="screen-vignette" aria-hidden="true"></div>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
